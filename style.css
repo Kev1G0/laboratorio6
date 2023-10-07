@@ -1,0 +1,188 @@
+body {
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+
+
+
+.contenedor {
+    position: relative;
+    min-height: 100%;
+    margin-left: 50px;
+   margin-right: 50px;
+   
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.856);
+    margin: 10px;
+    text-align: center;
+    font-size: 52px;
+    
+}
+
+.box{
+  text-align: center;
+  
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    
+}
+
+h2{
+    color: #045e67;
+}
+a {
+    color: #045e67;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: lightgray;
+    
+}
+
+a:hover {
+    background-color: rgb(91, 133, 180);
+    color: black;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.img-banner{
+    transition: .5s ease;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 75px;
+    margin-left: 50px;
+    height: 500px;
+    width: 1000px;
+    opacity: 1;
+    filter:grayscale(50%);
+}
+.text {
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 55%;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    top: 1px;
+}
+
+.text-banner{
+    position: absolute;
+    bottom: 8px;
+}
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+
+.banner:hover .text {
+    opacity: 1;
+}
+
+.contenido h3 {
+   color: #045e67;
+    margin-left: 160px;
+    font-size: 45px;
+    font-weight: 50px; 
+    
+}
+.contenido p {
+    color: #045e67;
+    margin-left: 430px;
+    margin-top: 200px;
+    font-size: 18px;
+    font-weight: 50px; 
+    font-weight:bold;
+}
+
+.banner .img-banner:hover {
+	opacity: .4;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+img:hover {
+    opacity: .6;
+}
+
+.caja {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.elementos {
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    background-color: #045f6783;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+p {
+    color: black;
+    margin: 10px;
+    text-align: justify;
+}
+
+#pie {
+    background-color: #045f6783;
+    width: 95%;
+    padding: 20px;
+    display: inline-block;
+   border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+
+}
+
+.izquierdo {
+    width: 150px;
+    height: 150px;
+    float: left;
+    mix-blend-mode: color-burn;
+}
+
+.derecho {
+    width: 150px;
+    height: 150px;
+    float: right;
+    mix-blend-mode: color-burn;
+}
+
+#copy {
+    
+    padding-top: 120px;
+    padding-left: 35%;
+}
